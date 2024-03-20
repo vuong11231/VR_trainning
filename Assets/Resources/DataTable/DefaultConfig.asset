@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c56dd53292e66804eb6c0b4919197ffb, type: 3}
+  m_Name: DefaultConfig
+  m_EditorClassIdentifier: 
+  records:
+  - id: 1
+    question: Question 1
+    answerA: FALSE
+    answerB: FALSE
+    answerC: TRUE
+    answerD: FALSE
+    correct: c
+  - id: 2
+    question: Question 2
+    answerA: TRUE
+    answerB: FALSE
+    answerC: FALSE
+    answerD: FALSE
+    correct: a
+  - id: 3
+    question: Question 3
+    answerA: FALSE
+    answerB: FALSE
+    answerC: TRUE
+    answerD: FALSE
+    correct: c
+  - id: 4
+    question: Question 4
+    answerA: FALSE
+    answerB: FALSE
+    answerC: TRUE
+    answerD: FALSE
+    correct: c
+  - id: 5
+    question: Question 5
+    answerA: FALSE
+    answerB: TRUE
+    answerC: FALSE
+    answerD: FALSE
+    correct: b
+  - id: 6
+    question: Question 6
+    answerA: FALSE
+    answerB: FALSE
+    answerC: FALSE
+    answerD: TRUE
+    correct: d
+  - id: 7
+    question: Question 7
+    answerA: TRUE
+    answerB: FALSE
+    answerC: FALSE
+    answerD: FALSE
+    correct: a
+  - id: 8
+    question: Question 8
+    answerA: FALSE
+    answerB: FALSE
+    answerC: FALSE
+    answerD: TRUE
+    correct: d
