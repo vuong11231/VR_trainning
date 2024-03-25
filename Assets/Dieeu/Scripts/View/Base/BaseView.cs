@@ -8,8 +8,6 @@ public class BaseView : MonoBehaviour
 {
     public ViewIndex viewIndex;
     private BaseViewAnimation viewAnimation;
-    public UnityEvent<string> OnClickedAnswer;
-    public UnityEvent OnClickedStart;
     private void Awake()
     {
         viewAnimation = gameObject.GetComponentInChildren<BaseViewAnimation>();

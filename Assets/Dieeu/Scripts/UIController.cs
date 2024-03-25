@@ -9,7 +9,7 @@ public class UIController : MonoBehaviour
 {
     [SerializeField] private GameObject anchorView;
     private List<DefaultConfigRecord> m_ListQuestions = new();
-    [SerializeField] private EmptyView emptyView;
+    private QuestionsView emptyView;
     private ViewParam m_ViewParam;
     private int numberQuestion = 0;
 
@@ -27,18 +27,13 @@ public class UIController : MonoBehaviour
 
     private void PassEvent()
     {
-        //Home
-        UnityEvent eStart = new UnityEvent();
-        eStart.AddListener(ShowParam);
-        ViewManager.instance.GetView(ViewIndex.HomeView).OnClickedStart = eStart;
-
         //Empty
         UnityEvent<string> eAnswer = new UnityEvent<string>();
         eAnswer.AddListener(CheckCorrectAnswer);
-        ViewManager.instance.GetView(ViewIndex.EmptyView).OnClickedAnswer = eAnswer;
-        BaseView baseView = ViewManager.instance.GetView(ViewIndex.EmptyView);
-        if (baseView is EmptyView)
-            emptyView = baseView as EmptyView;
+        //ViewManager.instance.GetView(ViewIndex.QuestionsView).OnClickedAnswer = eAnswer;
+        BaseView baseView = ViewManager.instance.GetView(ViewIndex.QuestionsView);
+        if (baseView is QuestionsView)
+            emptyView = baseView as QuestionsView;
 
     }
 
@@ -54,7 +49,7 @@ public class UIController : MonoBehaviour
                                     m_ListQuestions[numberQuestion].answerC,
                                     m_ListQuestions[numberQuestion].answerD };
             m_ViewParam.answer = arrAnswers;
-            ViewManager.instance.SwitchView(ViewIndex.EmptyView, m_ViewParam, null);
+            ViewManager.instance.SwitchView(ViewIndex.QuestionsView, m_ViewParam, null);
         } else
         {
             Debug.Log("Stop");
@@ -66,12 +61,12 @@ public class UIController : MonoBehaviour
         if (answer == m_ListQuestions[numberQuestion].correct)
         {
             numberQuestion++;
-            emptyView.CheckTheSelectedResult(true);
+            //emptyView.CheckTheSelectedResult(true);
             Invoke(nameof(ShowParam), .1f);
         }
         else
         {
-            emptyView.CheckTheSelectedResult(false);
+            //emptyView.CheckTheSelectedResult(false);
         }
     }
 }

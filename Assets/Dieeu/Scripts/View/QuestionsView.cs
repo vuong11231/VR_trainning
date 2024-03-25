@@ -7,7 +7,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-public class EmptyView : BaseView
+public class QuestionsView : BaseView
 {
     [SerializeField] private TextMeshProUGUI txtQuestion;
     [SerializeField] private Image[] arrBoxAnswer = new Image[4];
@@ -25,30 +25,27 @@ public class EmptyView : BaseView
         arrButtonAnswer[3].onClick.AddListener(delegate { OnClickedButtonAnswer("d", 3); });
     }
 
-    public void OnInit(UnityEvent<string> OnClickedButton)
-    {
-        this.OnClickedAnswer = OnClickedButton;
-    }
-
     public void OnClickedButtonAnswer(string answer, int index)
     {
         indexSelected = index;
-        OnClickedAnswer?.Invoke(answer);
+        CheckTheSelectedResult(answer);
     }
 
-    public void CheckTheSelectedResult(bool isCorrect)
+    public void CheckTheSelectedResult(string answer)
     {
+        bool isCorrect = ViewManager.instance.CheckCorrectAnswer(answer);
         arrButtonAnswer[indexSelected].interactable = false;
-        if(isCorrect)
-        {
-            foreach(Button btn in arrButtonAnswer)
-            {
-                btn.interactable = false;
-            }
-        }    
         Color currentColor = isCorrect ? correctColor : incorrectColor;
         Color newColor = new Color(currentColor.r, currentColor.g, currentColor.b, 1.0f);
         arrBoxAnswer[indexSelected].color = newColor;
+        if (isCorrect)
+        {
+            foreach (Button btn in arrButtonAnswer)
+            {
+                btn.interactable = false;
+            }
+            ViewManager.instance.NextQuestion();
+        }
     }
 
     public override void Setup(ViewParam param)

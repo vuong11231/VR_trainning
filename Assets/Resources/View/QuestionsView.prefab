@@ -279,7 +279,7 @@ GameObject:
   - component: {fileID: 5834545312910022160}
   - component: {fileID: 766200555318874482}
   m_Layer: 5
-  m_Name: EmptyView
+  m_Name: QuestionsView
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -356,12 +356,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   viewIndex: 0
-  OnClickedAnswer:
-    m_PersistentCalls:
-      m_Calls: []
-  OnClickedStart:
-    m_PersistentCalls:
-      m_Calls: []
   txtQuestion: {fileID: 3711298073772809289}
   arrBoxAnswer:
   - {fileID: 1377226251537242374}

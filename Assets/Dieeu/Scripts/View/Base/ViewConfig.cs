@@ -5,10 +5,8 @@ using UnityEngine;
 // 0-256
 public enum ViewIndex
 {
-    EmptyView=0,
+    QuestionsView = 0,
     HomeView=1,
-    DecorationView=2 ,
-    VRView=3
 
 }
 public class ViewParam
@@ -20,7 +18,7 @@ public class ViewParam
 public class ViewConfig 
 {
     public static ViewIndex[] viewIndices = {
-        ViewIndex.EmptyView,
+        ViewIndex.QuestionsView,
         ViewIndex.HomeView,
     };
 }

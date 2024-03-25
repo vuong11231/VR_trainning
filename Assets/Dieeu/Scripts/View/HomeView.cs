@@ -7,7 +7,7 @@ public class HomeView : BaseView
 {
     public void ButtonStart()
     {
-        OnClickedStart?.Invoke();
+        ViewManager.instance.NextQuestion();
     }
         
 

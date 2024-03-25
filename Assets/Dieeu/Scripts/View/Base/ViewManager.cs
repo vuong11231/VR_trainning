@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class ViewManager : BYSingletonMono<ViewManager>
@@ -9,10 +10,21 @@ public class ViewManager : BYSingletonMono<ViewManager>
     private Dictionary<ViewIndex, BaseView> dicView = new Dictionary<ViewIndex, BaseView>();
     [NonSerialized]
     public BaseView currentView = null;
-    // Start is called before the first frame update
-  
+
+    private List<DefaultConfigRecord> m_ListQuestions = new();
+    private ViewParam m_ViewParam;
+    private int numberQuestion = 0;
 
     void Awake()
+    {
+        ConfigManager.instance.InitConfig(null);
+        //Shuffle list questions
+        m_ListQuestions = ConfigManager.instance.configQuestion.records;
+        m_ListQuestions = m_ListQuestions.OrderBy(x => Guid.NewGuid()).ToList();
+        LoadView();
+    }
+
+    private void LoadView()
     {
         foreach (ViewIndex viewIndex in ViewConfig.viewIndices)
         {
@@ -28,7 +40,7 @@ public class ViewManager : BYSingletonMono<ViewManager>
         }
         // 2. switch empty view
         SwitchView(ViewIndex.HomeView);
-    }
+    }    
 
     public BaseView GetView(ViewIndex viewIndex)
     {
@@ -69,6 +81,36 @@ public class ViewManager : BYSingletonMono<ViewManager>
         currentView.SendMessage("ShowView", viewCallBack);
     }
    
+    public void NextQuestion()
+    {
+        if (numberQuestion < m_ListQuestions.Count - 1)
+        {
+            m_ViewParam = new();
+            m_ViewParam.id = m_ListQuestions[numberQuestion].id;
+            m_ViewParam.question = m_ListQuestions[numberQuestion].question;
+            string[] arrAnswers = { m_ListQuestions[numberQuestion].answerA,
+                                    m_ListQuestions[numberQuestion].answerB,
+                                    m_ListQuestions[numberQuestion].answerC,
+                                    m_ListQuestions[numberQuestion].answerD };
+            m_ViewParam.answer = arrAnswers;
+            SwitchView(ViewIndex.QuestionsView, m_ViewParam, null);
+        }
+        else
+        {
+            Debug.Log("Stop");
+        }
+    }
+
+    public bool CheckCorrectAnswer(string answer)
+    {
+        if (answer == m_ListQuestions[numberQuestion].correct)
+        {
+            numberQuestion++;
+            return true;
+        }
+        else
+            return false;
+    }
 }
 
 public class ViewCallBack
