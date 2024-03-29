@@ -48,7 +48,6 @@ public class BYDataTable<T> : BYDataTableCreate where T : class , new()
             string jsonString = "{";
             for (int j = 0; j < grids[i].Count; j++)
             {
-         
                 if (j > 0)
                 {
                     jsonString += ",";
@@ -58,10 +57,11 @@ public class BYDataTable<T> : BYDataTableCreate where T : class , new()
                     jsonString += "\"" + fieldInfos[j].Name + "\":\"" + grids[i][j].ToString()+"\"";
                 }
                 else
+                {
                     jsonString += "\"" + fieldInfos[j].Name + "\":" + grids[i][j].ToString();
+                }    
             }
             jsonString += "}";
-         
             T recordData = JsonUtility.FromJson<T>(jsonString);
             records.Add(recordData);
         }
@@ -80,6 +80,13 @@ public class BYDataTable<T> : BYDataTableCreate where T : class , new()
             {
               
                 string[] lineData = s.Split(',');
+
+                for (int j = 0; j < lineData.Length; i++)
+                {
+                    if (lineData[j].Contains("<c>"))
+                        lineData[j] = lineData[j].Replace("<c>", ",");
+                }
+
                 List<string> data = new List<string>();
                 foreach (string e in lineData)
                 {
