@@ -54,12 +54,12 @@ public class BYDataTable<T> : BYDataTableCreate where T : class , new()
                 }
                 if (fieldInfos[j].FieldType == typeof(string))
                 {
-                    jsonString += "\"" + fieldInfos[j].Name + "\":\"" + grids[i][j].ToString()+"\"";
+                    jsonString += "\"" + fieldInfos[j].Name + "\":\"" + grids[i][j].ToString() + "\"";
                 }
                 else
                 {
                     jsonString += "\"" + fieldInfos[j].Name + "\":" + grids[i][j].ToString();
-                }    
+                }
             }
             jsonString += "}";
             T recordData = JsonUtility.FromJson<T>(jsonString);
@@ -80,9 +80,9 @@ public class BYDataTable<T> : BYDataTableCreate where T : class , new()
             {
               
                 string[] lineData = s.Split(',');
-
-                for (int j = 0; j < lineData.Length; i++)
+                for (int j = 0; j < lineData.Length; j++)
                 {
+                    Debug.Log(lineData[j]);
                     if (lineData[j].Contains("<c>"))
                         lineData[j] = lineData[j].Replace("<c>", ",");
                 }
