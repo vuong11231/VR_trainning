@@ -12,6 +12,8 @@ public enum ViewIndex
 public class ViewParam
 {
     public int id = 0;
+    public int number = 0;
+    public int totalQuestion = 0;
     public string question = string.Empty;
     public string[] answer = new string[4];
 }

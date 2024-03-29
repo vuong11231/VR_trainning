@@ -87,6 +87,8 @@ public class ViewManager : BYSingletonMono<ViewManager>
         {
             m_ViewParam = new();
             m_ViewParam.id = m_ListQuestions[numberQuestion].id;
+            m_ViewParam.number = numberQuestion + 1;
+            m_ViewParam.totalQuestion = m_ListQuestions.Count;
             m_ViewParam.question = m_ListQuestions[numberQuestion].question;
             string[] arrAnswers = { m_ListQuestions[numberQuestion].answerA,
                                     m_ListQuestions[numberQuestion].answerB,

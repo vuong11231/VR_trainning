@@ -9,12 +9,14 @@ using UnityEngine.UI;
 
 public class QuestionsView : BaseView
 {
+    [SerializeField] private TextMeshProUGUI txtNumber;
     [SerializeField] private TextMeshProUGUI txtQuestion;
     [SerializeField] private Image[] arrBoxAnswer = new Image[4];
     [SerializeField] private Button[] arrButtonAnswer = new Button[4];
     [SerializeField] private TextMeshProUGUI[] arrTextAnswer = new TextMeshProUGUI[4];
-    [SerializeField] private Color incorrectColor;
-    [SerializeField] private Color correctColor;
+    [SerializeField] private Sprite incorrectColor;
+    [SerializeField] private Sprite correctColor;
+    [SerializeField] private Sprite normalColor;
     private int indexSelected = 0;
 
     private void Start()
@@ -35,9 +37,9 @@ public class QuestionsView : BaseView
     {
         bool isCorrect = ViewManager.instance.CheckCorrectAnswer(answer);
         arrButtonAnswer[indexSelected].interactable = false;
-        Color currentColor = isCorrect ? correctColor : incorrectColor;
-        Color newColor = new Color(currentColor.r, currentColor.g, currentColor.b, 1.0f);
-        arrBoxAnswer[indexSelected].color = newColor;
+        //Color currentColor = isCorrect ? correctColor : incorrectColor;
+        //Color newColor = new Color(currentColor.r, currentColor.g, currentColor.b, 1.0f);
+        arrBoxAnswer[indexSelected].sprite = isCorrect ? correctColor : incorrectColor;
         if (isCorrect)
         {
             foreach (Button btn in arrButtonAnswer)
@@ -50,9 +52,10 @@ public class QuestionsView : BaseView
 
     public override void Setup(ViewParam param)
     {
+        txtNumber.text = param.number + "/" + param.totalQuestion;
         for(int i = 0; i < arrBoxAnswer.Length; i++)
         {
-            arrBoxAnswer[i].color = Color.white;
+            arrBoxAnswer[i].sprite = normalColor;
             arrButtonAnswer[i].interactable = true;
         }    
         txtQuestion.text = param.question.ToString();
