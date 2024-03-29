@@ -12,4 +12,477 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6925873844be3ad4d847d4dc5328606e, type: 3}
   m_Name: PCCC
   m_EditorClassIdentifier: 
-  records: []
+  records:
+  - id: 1
+    question: "Trang thi\u1EBFt b\u1ECB an to\xE0n tr\xEAn t\xE0u th\u1EE7y g\u1ED3m
+      nh\u1EEFng lo\u1EA1i:"
+    answerA: "a. C\u1EE9u h\u1ECFa, c\u1EE9u sinh, c\u1EE9u \u0111\u1EAFm."
+    answerB: "b. C\xE1c thi\u1EBFt b\u1ECB th\xF4ng tin c\u1EE9u n\u1EA1n."
+    answerC: "c. Danh m\u1EE5c c\xE1c tr\u1EA1m b\u1EDD trong th\u1EF1c hi\u1EC7n
+      c\u1EE9u h\u1ED9, c\u1EE9u n\u1EA1n."
+    answerD: "d. T\u1EA5t c\u1EA3 c\xE1c \xFD tr\xEAn."
+    correct: d
+  - id: 2
+    question: "Quy \u0111\u1ECBnh vi\u1EC7c s\u1EED d\u1EE5ng trang, thi\u1EBFt b\u1ECB
+      b\u1EA3o h\u1ED9 lao \u0111\u1ED9ng:"
+    answerA: "a. Ng\u01B0\u1EDDi lao \u0111\u1ED9ng ph\u1EA3i s\u1EED d\u1EE5ng v\xE0o
+      vi\u1EC7c g\xEC  c\u0169ng \u0111\u01B0\u1EE3c."
+    answerB: "b. Ng\u01B0\u1EDDi lao \u0111\u1ED9ng s\u1EED d\u1EE5ng c\xE1c trang,
+      thi\u1EBFt b\u1ECB n\xE0o c\u0169ng \u0111\u01B0\u1EE3c."
+    answerC: "c. Ng\u01B0\u1EDDi lao \u0111\u1ED9ng ch\u1EC9 m\u1ED9t lo\u1EA1i cho
+      trang, thi\u1EBFt b\u1ECB quan tr\u1ECDng."
+    answerD: "d. Ng\u01B0\u1EDDi lao \u0111\u1ED9ng ph\u1EA3i s\u1EED d\u1EE5ng \u0111\xFAng
+      m\u1EE5c \u0111\xEDch v\xE0 \u0111\u1EE7 c\xE1c trang, thi\u1EBFt b\u1ECB \u0111\u01B0\u1EE3c
+      cung c\u1EA5p."
+    correct: d
+  - id: 3
+    question: "Trong th\u1EDDi gian l\xE0m vi\u1EC7c, ng\u01B0\u1EDDi lao \u0111\u1ED9ng
+      ph\u1EA3i ch\u1EA5p h\xE0nh quy \u0111\u1ECBnh \u0111i l\u1EA1i t\u1EA1i hi\u1EC7n
+      tr\u01B0\u1EDDng:"
+    answerA: "a. T\xF9y \xFD \u0111i l\u1EA1i."
+    answerB: "b. Ch\u1EC9 \u0111\u01B0\u1EE3c ph\xE9p \u0111i l\u1EA1i trong ph\u1EA1m
+      vi \u0111\u01B0\u1EE3c ph\xE2n c\xF4ng."
+    answerC: "c. Trong v\xE0 ngo\xE0i ph\u1EA1m vi khu v\u1EF1c m\xECnh l\xE0m vi\u1EC7c."
+    answerD: "d. Ch\u1EC9 \u0111\u01B0\u1EE3c ph\xE9p \u0111i l\u1EA1i tr\xEAn boong."
+    correct: b
+  - id: 4
+    question: "Khi x\u1EA3y ra s\u1EF1 c\u1ED1 tai n\u1EA1n lao \u0111\u1ED9ng, nh\u1EEFng
+      ng\u01B0\u1EDDi c\xF3 m\u1EB7t t\u1EA1i hi\u1EC7n tr\u01B0\u1EDDng ph\u1EA3i:"
+    answerA: "a. T\u1EAFt c\xF4ng t\u1EAFc \u0111i\u1EC7n, cho ng\u1EEBng m\xE1y."
+    answerB: "b. Kh\u1EA9n tr\u01B0\u1EDDng s\u01A1 c\u1EE9u n\u1EA1n nh\xE2n, b\xE1o
+      ngay cho ng\u01B0\u1EDDi ph\u1EE5 tr\xE1ch."
+    answerC: "c. Tham gia b\u1EA3o v\u1EC7 hi\u1EC7n tr\u01B0\u1EDDng \u0111\u1EC3
+      ng\u01B0\u1EDDi c\xF3 tr\xE1ch nhi\u1EC7m x\u1EED l\xFD."
+    answerD: "d. T\u1EA5t c\u1EA3 vi\u1EC7c tr\xEAn."
+    correct: d
+  - id: 5
+    question: "\u0110\u1EC3 \u0111\u1EA3m b\u1EA3o an to\xE0n ph\xF2ng, ch\u1EEFa
+      ch\xE1y tr\xEAn t\xE0u th\xEC thuy\u1EC1n vi\xEAn:"
+    answerA: "a. Bi\u1EBFt s\u1EED d\u1EE5ng c\xE1c trang b\u1ECB c\u1EE9u h\u1ECFa."
+    answerB: "b. Th\u01B0\u1EDDng xuy\xEAn di\u1EC5n t\u1EADp ph\xF2ng ch\u1EEFa
+      ch\xE1y tr\xEAn t\xE0u. "
+    answerC: "c. Th\u01B0\u1EDDng xuy\xEAn ki\u1EC3m tra \u0111\u01B0\u1EDDng d\xE2y
+      d\u1EABn \u0111i\u1EC7n \u0111\u1EC3 tr\xE1nh b\u1ECB h\u1EDF, b\u1ECB ch\u1EADp
+      di\u1EC7n."
+    answerD: "d. T\u1EA5t c\u1EA3 c\xE1c c\xF4ng vi\u1EC7c tr\xEAn."
+    correct: d
+  - id: 6
+    question: "Khi c\xF3 s\u1EF1 c\u1ED1 ho\u1EB7c nghi ng\u1EDD thi\u1EBFt b\u1ECB
+      c\xF3 s\u1EF1 c\u1ED1, tr\u01B0\u1EDBc h\u1EBFt ng\u01B0\u1EDDi lao \u0111\u1ED9ng
+      ph\u1EA3i: "
+    answerA: "a. B\xE1o cho ng\u01B0\u1EDDi ph\u1EE5 tr\xE1ch an to\xE0n bi\u1EBFt."
+    answerB: "b. Ti\u1EBFn h\xE0nh t\u1EF1 s\u1EEDa ch\u1EEFa, kh\u1EAFc ph\u1EE5c."
+    answerC: "c. L\u1EADp t\u1EE9c r\u1EDDi kh\u1ECFi hi\u1EC7n tr\u01B0\u1EDDng."
+    answerD: "d. D\u1EEBng ho\u1EA1t \u0111\u1ED9ng."
+    correct: a
+  - id: 7
+    question: "Khi x\u1EA3y ra tai n\u1EA1n lao \u0111\u1ED9ng, nh\u1EEFng ng\u01B0\u1EDDi
+      c\xF3 m\u1EB7t t\u1EA1i hi\u1EC7n tr\u01B0\u1EDDng ph\u1EA3i l\xE0m:"
+    answerA: "a. T\u1EAFt c\xF4ng t\u1EAFc \u0111i\u1EC7n, cho ng\u1EEBng m\xE1y."
+    answerB: "b. Kh\u1EA9n tr\u01B0\u1EDDng s\u01A1 c\u1EE9u n\u1EA1n nh\xE2n, b\xE1o
+      ngay cho ng\u01B0\u1EDDi ph\u1EE5 tr\xE1ch."
+    answerC: "c. Tham gia b\u1EA3o v\u1EC7 hi\u1EC7n tr\u01B0\u1EDDng \u0111\u1EC3
+      ng\u01B0\u1EDDi c\xF3 tr\xE1ch nhi\u1EC7m x\u1EED l\xFD."
+    answerD: "d. T\u1EA5t c\u1EA3 c\xE1c \xFD tr\xEAn ."
+    correct: d
+  - id: 8
+    question: "Khi c\xF3 ng\u01B0\u1EDDi vi ph\u1EA1m v\u1EC1 nguy\xEAn t\u1EAFc
+      an to\xE0n lao \u0111\u1ED9ng x\u1EA3y ra t\u1EA1i n\u01A1i l\xE0m vi\u1EC7c,
+      ng\u01B0\u1EDDi lao \u0111\u1ED9ng c\xF3 ngh\u0129a v\u1EE5 b\xE1o cho: "
+    answerA: "a. Ng\u01B0\u1EDDi ph\u1EE5 tr\xE1ch s\u1EA3n xu\u1EA5t."
+    answerB: "b. Ng\u01B0\u1EDDi l\xE3nh \u0111\u1EA1o c\u01A1 s\u1EDF s\u1EA3n xu\u1EA5t."
+    answerC: "c. \u0110\u1EA1i di\u1EC7n l\xE3nh \u0111\u1EA1o v\u1EC1 an to\xE0n."
+    answerD: "d. Ng\u01B0\u1EDDi c\xF9ng l\xE0m vi\u1EC7c."
+    correct: c
+  - id: 9
+    question: "Trong quy \u0111\u1ECBnh an to\xE0n lao \u0111\u1ED9ng, ng\u01B0\u1EDDi
+      lao \u0111\u1ED9ng \u0111\u01B0\u1EE3c s\u1EED d\u1EE5ng v\xE0 v\u1EADn h\xE0nh
+      thi\u1EBFt b\u1ECB l\xE0:"
+    answerA: "a. Ng\u01B0\u1EDDi m\u1EDBi v\xE0o l\xE0m vi\u1EC7c."
+    answerB: "b. Ng\u01B0\u1EDDi \u0111\xE3 \u0111\u01B0\u1EE3c hu\u1EA5n luy\u1EC7n
+      v\u1EC1 quy t\u1EAFc an to\xE0n v\xE0 v\u1EADn h\xE0nh thi\u1EBFt b\u1ECB."
+    answerC: "c. Ng\u01B0\u1EDDi \u0111\u01B0\u1EE3c hu\u1EA5n luy\u1EC7n v\u1EADn
+      h\xE0nh thi\u1EBFt b\u1ECB."
+    answerD: "d. Ng\u01B0\u1EDDi \u0111\xE3 l\xE0m vi\u1EC7c l\xE2u n\u0103m."
+    correct: b
+  - id: 10
+    question: "Khi tr\u1EF1c ca t\xE0u h\xE0nh tr\xECnh, thuy\u1EC1n vi\xEAn l\xE0m
+      nhi\u1EC7m v\u1EE5 c\u1EA3nh gi\u1EDBi n\u1EBFu ph\xE1t hi\u1EC7n c\xF3 hi\u1EC7n
+      t\u01B0\u1EE3ng kh\xE1c th\u01B0\u1EDDng ph\u1EA3i b\xE1o cho:"
+    answerA: "a. Thuy\u1EC1n tr\u01B0\u1EDFng."
+    answerB: "b. Thuy\u1EC1n ph\xF3."
+    answerC: "c. Ng\u01B0\u1EDDi ph\u1EE5 tr\xE1ch ca."
+    answerD: "d. M\xE1y tr\u01B0\u1EDFng."
+    correct: c
+  - id: 11
+    question: "Thuy\u1EC1n ph\xF3 khi tr\u1EF1c ca b\u1EDD, tr\u01B0\u1EDDng h\u1EE3p
+      t\xE0u \u0111\u1EADu trong c\u1EA7u c\u1EA3ng c\u1EA7n n\u1EAFm r\xF5:"
+    answerA: "a. Th\u1EE7y tri\u1EC1u, n\u1ED9i qui c\u1EE7a c\u1EA3ng."
+    answerB: "b. \u0110i\u1EC1u ki\u1EC7n thi\xEAn nhi\xEAn."
+    answerC: "c. B\xE1o hi\u1EC7u khu v\u1EF1c c\u1EA7u t\xE0u."
+    answerD: "d. L\xE0m theo s\u1EF1 ch\u1EC9 \u0111\u1EA1o c\u1EE7a c\u01A1 quan
+      C\u1EA3ng v\u1EE5."
+    correct: a
+  - id: 12
+    question: "Ng\u01B0\u1EDDi tr\u1EF1c ca khi t\xE0u h\xE0nh tr\xECnh, n\u1EBFu
+      c\xF3 b\xE1o \u0111\u1ED9ng ph\u1EA3i \u1EDF:"
+    answerA: "a. V\u1ECB tr\xED cao nh\u1EA5t."
+    answerB: "b. V\u1ECB tr\xED qui \u0111\u1ECBnh, ch\u1EC9 ra kh\u1ECFi v\u1ECB
+      tr\xED khi c\xF3 ng\u01B0\u1EDDi thay th\u1EBF."
+    answerC: "c. Nh\u1EEFng n\u01A1i c\u1EA7n thi\u1EBFt."
+    answerD: "d. M\u0169i t\xE0u."
+    correct: b
+  - id: 13
+    question: "Khi x\u1EA3y ra ch\xE1y, n\u1ED5 tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n,
+      thuy\u1EC1n tr\u01B0\u1EDFng ph\u1EA3i c\xF3 m\u1EB7t \u1EDF \u0111\u1EC3 ch\u1EC9
+      huy:"
+    answerA: "a. Bu\u1ED3ng l\xE1i."
+    answerB: "b. M\u0169i t\xE0u."
+    answerC: "c. L\xE1i t\xE0u."
+    answerD: "d. V\u1ECB tr\xED cao nh\u1EA5t."
+    correct: a
+  - id: 14
+    question: "Khi x\u1EA3y ra ch\xE1y, n\u1ED5 tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n,
+      ng\u01B0\u1EDDi ch\u1EC9 huy vi\u1EC7c c\u1EE9u ng\u01B0\u1EDDi v\xE0 di chuy\u1EC3n
+      t\xE0i s\u1EA3n l\xE0:"
+    answerA: "a. Thuy\u1EC1n tr\u01B0\u1EDFng."
+    answerB: "b. Thuy\u1EC1n ph\xF3."
+    answerC: "c. M\xE1y tr\u01B0\u1EDFng."
+    answerD: "d. Th\u1EE7y th\u1EE7."
+    correct: b
+  - id: 15
+    question: "Khi x\u1EA3y ra ch\xE1y n\u1ED5 tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n
+      th\u1EE7y, ng\u01B0\u1EDDi tr\u1EF1c ti\u1EBFp s\u1EED d\u1EE5ng c\xE1c trang
+      thi\u1EBFt b\u1ECB ph\xF9 h\u1EE3p \u0111\u1EC3 ch\u1EEFa ch\xE1y l\xE0:"
+    answerA: "a. Thuy\u1EC1n tr\u01B0\u1EDFng."
+    answerB: "b. Thuy\u1EC1n ph\xF3."
+    answerC: "c. Thuy\u1EC1n vi\xEAn."
+    answerD: "d. Th\u1EE3 m\xE1y."
+    correct: c
+  - id: 16
+    question: "Khi x\u1EA3y ra ch\xE1y n\u1ED5 tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n,
+      th\u1EE3 m\xE1y c\xF3 nhi\u1EC7m v\u1EE5:"
+    answerA: "a. H\u1ED7 tr\u1EE3 \u1EE9ng c\u1EE9u."
+    answerB: "b. \u0110\xF3ng c\u1EEDa th\xF4ng gi\xF3, phun n\u01B0\u1EDBc l\xE0m
+      m\xE1t v\xE0 ch\u1EEFa ch\xE1y."
+    answerC: "c. Di chuy\u1EC3n t\xE0i s\u1EA3n, tham gia c\u1EE9u ng\u01B0\u1EDDi."
+    answerD: "d. T\u1EA5t c\u1EA3 c\xE1c nhi\u1EC7m v\u1EE5 tr\xEAn."
+    correct: d
+  - id: 17
+    question: "Khi x\u1EA3y ra ch\xE1y n\u1ED5 tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n,
+      ng\u01B0\u1EDDi c\u1EAFt \u0111i\u1EC7n, ch\u1EA1y b\u01A1m n\u01B0\u1EDBc
+      c\u1EE9u h\u1ECFa, v\u1EADn h\xE0nh tr\u1EA1m CO2 l\xE0:"
+    answerA: "a. Thuy\u1EC1n tr\u01B0\u1EDFng."
+    answerB: "b. M\xE1y tr\u01B0\u1EDFng."
+    answerC: "c. Th\u1EE7y th\u1EE7."
+    answerD: "d. Th\u1EE3 m\xE1y."
+    correct: b
+  - id: 18
+    question: "Tai n\u1EA1n \u0111\u1ED1i v\u1EDBi ng\u01B0\u1EDDi l\xE0m vi\u1EC7c
+      tr\xEAn t\xE0u th\u1EE7y, n\u1EA1n nh\xE2n c\xF3 th\u1EC3 b\u1ECB:"
+    answerA: "a. G\u1EABy x\u01B0\u01A1ng. "
+    answerB: "b. Ng\u1EA5t, ch\u1EBFt \u0111u\u1ED1i. "
+    answerC: "c. Ch\u1EA5n th\u01B0\u01A1ng ph\u1EA7n m\u1EC1m, n\u1ED9i t\u1EA1ng."
+    answerD: "d. T\u1EA5t c\u1EA3 c\xE1c tr\u01B0\u1EDDng h\u1EE3p tr\xEAn."
+    correct: d
+  - id: 19
+    question: "Khi l\xE0m d\xE2y v\u1EDBi tr\u1ED1ng qu\u1EA5n d\xE2y, ng\u01B0\u1EDDi
+      l\xE0m d\xE2y ph\u1EA3i \u0111\u1EC3 tay gi\u1EEF d\xE2y c\xE1ch tr\u1ED1ng
+      \xEDt nh\u1EA5t l\xE0:"
+    answerA: a. 0,5 m.
+    answerB: b. 1,0 m.
+    answerC: c. 1,5 m.
+    answerD: d. 2,0 m.
+    correct: b
+  - id: 20
+    question: "Thuy\u1EC1n vi\xEAn l\xE0m vi\u1EC7c tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n
+      ch\u1EDF h\xF3a ch\u1EA5t, ngo\xE0i c\xE1c gi\xE2\u0301y ch\u1EE9ng nh\u1EADn
+      kh\u1EA3 n\u0103ng chuy\xEAn m\xF4n theo ch\u1EE9c danh tr\xEAn ph\u01B0\u01A1ng
+      ti\u1EC7n ph\u1EA3i c\xF3:"
+    answerA: "a. Ch\u1EE9ng nh\u1EADn v\u1EC1 s\u1EED d\u1EE5ng h\xF3a ch\u1EA5t."
+    answerB: "b. Ch\u1EE9ng nh\u1EADn v\u1EC1 s\u1EA3n xu\u1EA5t h\xF3a ch\u1EA5t."
+    answerC: "c. Ch\u1EE9ng nh\u1EADn mua b\xE1n h\xF3a ch\u1EA5t."
+    answerD: "d. Ch\u1EE9ng ch\u1EC9 an to\xE0n l\xE0m vi\u1EC7c tr\xEAn ph\u01B0\u01A1ng
+      ti\u1EC7n ch\u1EDF h\xF3a ch\u1EA5t."
+    correct: d
+  - id: 21
+    question: "Ph\u01B0\u01A1ng ti\u1EC7n \u0111\u01B0\u1EE3c ph\xE9p chuy\xEAn ch\u1EDF
+      h\xF3a ch\u1EA5t l\xE0:"
+    answerA: "a. T\xE0u t\u1EF1 h\xE0nh."
+    answerB: "b. \u0110o\xE0n t\xE0u \u0111\u1EA9y."
+    answerC: "c. \u0110o\xE0n t\xE0u k\xE9o."
+    answerD: "d. Ph\u01B0\u01A1ng ti\u1EC7n c\xF3 gi\u1EA5y ch\u1EE9ng nh\u1EADn
+      an to\xE0n k\u1EF9 thu\u1EADt v\xE0 b\u1EA3o v\u1EC7 m\xF4i tr\u01B0\u1EDDng
+      ph\xF9 h\u1EE3p v\u1EDBi lo\u1EA1i, nh\xF3m h\xE0ng chuy\xEAn ch\u1EDF."
+    correct: d
+  - id: 22
+    question: "Trang thi\u1EBFt b\u1ECB b\u1EA3o v\u1EC7 ng\u01B0\u1EDDi l\xE0m c\xF4ng
+      t\xE1c v\u1EADn t\u1EA3i h\xF3a ch\u1EA5t ph\u1EA3i b\u1EA3o \u0111\u1EA3m
+      nguy\xEAn t\u1EAFc l\xE0:"
+    answerA: "a. B\u1EC1n, \u0111\u1EB9p."
+    answerB: "b. Kh\xF4ng ch\xE1y."
+    answerC: "c. C\xE1ch nhi\u1EC7t."
+    answerD: "d. To\xE0n th\xE2n \u0111\u01B0\u1EE3c b\u1EA3o v\u1EC7."
+    correct: d
+  - id: 23
+    question: "Ng\u01B0\u1EDDi l\xE0m c\xF4ng t\xE1c v\u1EADn t\u1EA3i h\xF3a ch\u1EA5t
+      s\u1EED d\u1EE5ng trang thi\u1EBFt b\u1ECB b\u1EA3o v\u1EC7 khi:"
+    answerA: "a. M\u1ECDi l\xFAc, m\u1ECDi n\u01A1i."
+    answerB: "b. B\u1EA5t k\u1EF3 c\xF4ng vi\u1EC7c n\xE0o c\xF3 th\u1EC3 t\u1EA1o
+      ra nguy hi\u1EC3m cho ng\u01B0\u1EDDi lao \u0111\u1ED9ng."
+    answerC: "c. Ch\u1EC9 khi x\u1EBFp h\xE0ng."
+    answerD: "d. Ch\u1EC9 khi d\u1EE1 h\xE0ng."
+    correct: b
+  - id: 24
+    question: "Dung t\xEDch chai kh\xED d\u1EF1 tr\u1EEF cho m\u1ED7i thi\u1EBFt
+      b\u1ECB th\u1EDF tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n ch\u1EDF h\xF3a ch\u1EA5t
+      \u0111\u01B0\u1EE3c quy \u0111\u1ECBnh l\xE0:"
+    answerA: "a. 60 l\xEDt."
+    answerB: "b. 600 l\xEDt."
+    answerC: "c. 1000 l\xEDt."
+    answerD: "d. 6000 l\xEDt."
+    correct: d
+  - id: 25
+    question: "Th\u1EDDi gian t\u1ED1i thi\u1EC3u ph\u1EA3i ki\u1EC3m tra thi\u1EBFt
+      b\u1ECB th\u1EDF c\u1EE7a ph\u01B0\u01A1ng ti\u1EC7n ch\u1EDF h\xF3a ch\u1EA5t
+      l\xE0:"
+    answerA: "a. 1 th\xE1ng."
+    answerB: "b. 3 th\xE1ng."
+    answerC: "c. 6 th\xE1ng."
+    answerD: "d. 1 n\u0103m."
+    correct: a
+  - id: 26
+    question: "Tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n ch\u1EDF h\xF3a ch\u1EA5t, h\xE0ng
+      h\xF3a nguy hi\u1EC3m ng\u01B0\u1EDDi quy\u1EBFt \u0111\u1ECBnh s\u01A1 \u0111\u1ED3
+      x\u1EBFp d\u1EE1 h\xE0ng h\xF3a l\xE0:"
+    answerA: "a. Th\u1EE7y th\u1EE7."
+    answerB: "b. Thuy\u1EC1n ph\xF3."
+    answerC: "c. Thuy\u1EC1n tr\u01B0\u1EDFng."
+    answerD: "d. M\xE1y tr\u01B0\u1EDFng."
+    correct: c
+  - id: 27
+    question: "Qu\u1EA7n \xE1o trang thi\u1EBFt b\u1ECB b\u1EA3o v\u1EC7 ng\u01B0\u1EDDi
+      l\xE0m vi\u1EC7c tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n ch\u1EDF h\xF3a ch\u1EA5t
+      \u0111\u01B0\u1EE3c c\u1EA5t gi\u1EEF tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n \u1EDF:"
+    answerA: "a. T\u1EE7 c\xE1 nh\xE2n. "
+    answerB: "b. Gi\u01B0\u1EDDng c\xE1 nh\xE2n."
+    answerC: "c. T\u1EE7 chuy\xEAn d\xF9ng."
+    answerD: "d. N\u01A1i l\xE0m vi\u1EC7c."
+    correct: c
+  - id: 28
+    question: "Thuy\u1EC1n vi\xEAn \u0111\u01B0\u1EE3c ph\xE9p v\xE0o l\xE0m vi\u1EC7c
+      trong khu v\u1EF1c k\xEDn khi n\u1ED3ng \u0111\u1ED9 \xD4xy l\u1EDBn h\u01A1n:"
+    answerA: a. 18%.
+    answerB: b. 19%.
+    answerC: c. 20%.
+    answerD: d. 21%.
+    correct: d
+  - id: 29
+    question: "Khi l\xE0m vi\u1EC7c trong khu v\u1EF1c k\xEDn, nghi ng\u1EDD c\xF3
+      t\u1ED3n \u0111\u1ECDng h\u01A1i \u0111\u1ED9c, ng\u01B0\u1EDDi lao \u0111\u1ED9ng
+      nh\u1EA5t thi\u1EBFt ph\u1EA3i mang: "
+    answerA: "a. M\u0169 b\u1EA3o hi\u1EC3m."
+    answerB: "b. Kh\u1EA9u trang."
+    answerC: "c. M\u1EB7t n\u1EA1 ph\xF2ng \u0111\u1ED9c c\xF3 d\u01B0\u1EE1ng kh\xED
+      v\xE0 bu\u1ED9c d\xE2y an to\xE0n."
+    answerD: "d. Qu\u1EA7n \xE1o b\u1EA3o v\u1EC7 k\xEDn ng\u01B0\u1EDDi."
+    correct: c
+  - id: 30
+    question: "Khi kh\xED v\xE0 h\u01A1i ph\xE1t ch\xE1y th\xEC d\xF9ng lo\u1EA1i
+      b\xECnh ch\u1EEFa ch\xE1y h\xF3a h\u1ECDc \u0111\u1EC3 d\u1EADp ch\xE1y t\u1ED1t
+      nh\u1EA5t l\xE0:"
+    answerA: "a. B\xECnh b\u1ECDt."
+    answerB: "b. B\xECnh b\u1ED9t."
+    answerC: "c. B\xECnh  CO2."
+    answerD: "d. B\xECnh axit baz\u01A1."
+    correct: b
+  - id: 31
+    question: "S\u1EED d\u1EE5ng lo\u1EA1i b\xECnh h\xF3a h\u1ECDc \u0111\u1EC3 d\u1EADp
+      ch\xE1y ph\u1EA3i \u0111eo m\u1EB7t n\u1EA1 ph\xF2ng ng\u1EA1t:"
+    answerA: "a. B\xECnh b\u1ECDt."
+    answerB: "b. B\xECnh b\u1ED9t."
+    answerC: "c. B\xECnh  CO2."
+    answerD: "d. B\xECnh axit baz\u01A1."
+    correct: c
+  - id: 32
+    question: "C\xE1c thi\u1EBFt b\u1ECB \u0111i\u1EC7n, h\xF3a ch\u1EA5t kh\xF4ng
+      g\xE2y ph\u1EA3n \u1EE9ng v\u1EDBi CO2 th\xEC d\xF9ng lo\u1EA1i b\xECnh ch\u1EEFa
+      ch\xE1y h\xF3a h\u1ECDc t\u1ED1t nh\u1EA5t \u0111\u1EC3 d\u1EADp ch\xE1y l\xE0:"
+    answerA: "a. B\xECnh  CO2."
+    answerB: "b. B\xECnh b\u1ED9t."
+    answerC: "c. B\xECnh b\u1ECDt."
+    answerD: "d. B\xECnh Ax\xEDt baz\u01A1."
+    correct: a
+  - id: 33
+    question: "Khi s\u1EED d\u1EE5ng lo\u1EA1i b\xECnh ch\u1EEFa ch\xE1y n\xE0o sau
+      \u0111\xE2y ph\u1EA3i \u0111eo m\u1EB7t n\u1EA1 ph\xF2ng ng\u1EA1t:"
+    answerA: "a. B\xECnh b\u1ECDt."
+    answerB: "b. B\xECnh b\u1ED9t."
+    answerC: "c. B\xECnh  CO2."
+    answerD: "d. B\xECnh axit baz\u01A1."
+    correct: c
+  - id: 34
+    question: "\u0110\xE1m ch\xE1y kh\xED v\xE0 h\u01A1i thu\u1ED9c lo\u1EA1i:"
+    answerA: "a. Lo\u1EA1i A."
+    answerB: "b. Lo\u1EA1i B."
+    answerC: "c. Lo\u1EA1i C."
+    answerD: "d. Lo\u1EA1i D."
+    correct: c
+  - id: 35
+    question: "Bi\u1EC3n c\u1EA5m h\xFAt thu\u1ED1c l\xE1 l\xE0:"
+    answerA: "a. Bi\u1EC3n 1."
+    answerB: "b. Bi\u1EC3n 2."
+    answerC: "c. Bi\u1EC3n 3."
+    answerD: "d. Bi\u1EC3n 4."
+    correct: c
+  - id: 36
+    question: "Bi\u1EC3n ch\u1EC9 v\u1ECB tr\xED \u0111\u1EB7t thi\u1EBFt b\u1ECB
+      ch\u1EEFa ch\xE1y l\xE0:"
+    answerA: "a. Bi\u1EC3n 1."
+    answerB: "b. Bi\u1EC3n 2."
+    answerC: "c. Bi\u1EC3n 3."
+    answerD: "d. Bi\u1EC3n 4."
+    correct: a
+  - id: 37
+    question: "Bi\u1EC3n ch\u1EC9 l\u1ED1i \u0111i an to\xE0n l\xE0: "
+    answerA: "a. Bi\u1EC3n 1."
+    answerB: "b. Bi\u1EC3n 2."
+    answerC: "c. Bi\u1EC3n 3."
+    answerD: "d. Bi\u1EC3n 4."
+    correct: b
+  - id: 38
+    question: "Bi\u1EC3n ch\u1EC9 ch\xFA \xFD nguy hi\u1EC3m l\xE0:"
+    answerA: "a. Bi\u1EC3n 1."
+    answerB: "b. Bi\u1EC3n 2."
+    answerC: "c. Bi\u1EC3n 3."
+    answerD: "d. Bi\u1EC3n 4."
+    correct: b
+  - id: 39
+    question: "Trang thi\u1EBFt b\u1ECB c\u1EE9u h\u1ECFa tr\xEAn t\xE0u \u0111\u01B0\u1EE3c
+      s\u01A1n:"
+    answerA: "a. M\xE0u \u0111\u1ECF."
+    answerB: "b. M\xE0u xanh."
+    answerC: "c. M\xE0u v\xE0ng."
+    answerD: "d. M\xE0u x\xE1m."
+    correct: a
+  - id: 40
+    question: "Trang thi\u1EBFt b\u1ECB c\u1EE9u h\u1ECFa tr\xEAn t\xE0u th\u01B0\u1EDDng
+      \u0111\u01B0\u1EE3c \u0111\u1EC3 \u1EDF \u0111\xE2u:"
+    answerA: "a. Trong h\u1EA7m, kho m\u0169i."
+    answerB: "b. Trong h\u1EA7m, kho l\xE1i."
+    answerC: "c. Tr\xEAn h\xE0nh lang \u1EDF nh\u1EEFng n\u01A1i d\u1EC5 th\u1EA5y,
+      d\u1EC5 l\u1EA5y."
+    answerD: "d. C\u1EA3 ba \u0111\xE1p \xE1n tr\xEAn."
+    correct: c
+  - id: 41
+    question: "T\xE0u c\xF3 \u0111\u1EE7 ti\xEAu chu\u1EA9n v\u1EC1 c\u1EA5u tr\xFAc
+      \u0111\u1EC3 ch\u1EDF h\xF3a ch\u1EA5t g\xE2y nguy hi\u1EC3m v\xE0 \xF4 nhi\u1EC5m
+      nghi\xEAm tr\u1ECDng l\xE0:"
+    answerA: "a. T\xE0u lo\u1EA1i 1."
+    answerB: "b. T\xE0u lo\u1EA1i 2."
+    answerC: "c. T\xE0u lo\u1EA1i 3."
+    answerD: "d. C\xE1c lo\u1EA1i t\xE0u."
+    correct: a
+  - id: 42
+    question: "T\xE0u c\xF3 \u0111\u1EE7 ti\xEAu chu\u1EA9n v\u1EC1 c\u1EA5u tr\xFAc
+      \u0111\u1EC3 ch\u1EDF h\xF3a ch\u1EA5t g\xE2y nguy hi\u1EC3m v\xE0 \xF4 nhi\u1EC5m
+      nghi\xEAm tr\u1ECDng \u0111\xE1ng k\u1EC3 l\xE0:"
+    answerA: "a. C\xE1c lo\u1EA1i t\xE0u."
+    answerB: "b. T\xE0u lo\u1EA1i 1."
+    answerC: "c. T\xE0u lo\u1EA1i 2. "
+    answerD: "d. T\xE0u lo\u1EA1i 3."
+    correct: c
+  - id: 43
+    question: "T\xE0u c\xF3 \u0111\u1EE7 ti\xEAu chu\u1EA9n v\u1EC1 c\u1EA5u tr\xFAc
+      \u0111\u1EC3 ch\u1EDF h\xF3a ch\u1EA5t g\xE2y nguy hi\u1EC3m v\xE0 \xF4 nhi\u1EC5m
+      t\u01B0\u01A1ng \u0111\u1ED1i nghi\xEAm tr\u1ECDng \u0111\xE1ng k\u1EC3 l\xE0:"
+    answerA: "a. C\xE1c lo\u1EA1i t\xE0u."
+    answerB: "b. T\xE0u lo\u1EA1i 1."
+    answerC: "c. T\xE0u lo\u1EA1i 1 v\xE0 2. "
+    answerD: "d. T\xE0u lo\u1EA1i 3."
+    correct: d
+  - id: 44
+    question: "Khoang, k\xE9t ch\u1EE9a h\xE0ng h\xF3a ch\u1EA5t nguy hi\u1EC3m ph\u1EA3i
+      c\xF3 k\u1EBFt c\u1EA5u \u0111\xE1y \u0111\xF4i \u1EDF lo\u1EA1i t\xE0u na\u0300o:"
+    answerA: "a. C\xE1c lo\u1EA1i t\xE0u."
+    answerB: "b. T\xE0u lo\u1EA1i 1."
+    answerC: "c. T\xE0u lo\u1EA1i 1 v\xE0 2. "
+    answerD: "d. T\xE0u lo\u1EA1i 3."
+    correct: c
+  - id: 45
+    question: "Khoang, k\xE9t ch\u1EE9a h\xE0ng c\u1EE7a ph\u01B0\u01A1ng ti\u1EC7n
+      ch\u1EDF x\xF4 h\xF3a ch\u1EA5t ph\u1EA3i \u0111\u01B0\u1EE3c c\xE1ch ly kh\u1ECFi
+      khu v\u1EF1c na\u0300o: "
+    answerA: "a. Bu\u1ED3ng \u1EDF v\xE0 bu\u1ED3ng ph\u1EE5c v\u1EE5."
+    answerB: "b. Bu\u1ED3ng m\xE1y v\xE0 k\xE9t n\u01B0\u1EDBc sinh ho\u1EA1t."
+    answerC: "c. Khoang tr\u1ED1ng v\xE0 kho ch\u1EE9a th\u1EF1c ph\u1EA9m."
+    answerD: "d. T\u1EA5t c\u1EA3 c\xE1c khu v\u1EF1c tr\xEAn."
+    correct: d
+  - id: 46
+    question: "Thuy\u1EC1n vi\xEAn tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n ch\u1EDF h\xF3a
+      ch\u1EA5t \u0111\u01B0\u1EE3c hu\u1EA5n luy\u1EC7n th\xEDch \u0111\xE1ng tr\xECnh
+      t\u1EF1 x\u1EBFp d\u1EE1 h\xE0ng l\xE0:"
+    answerA: "a. Thuy\u1EC1n tr\u01B0\u1EDFng."
+    answerB: "b. Thuy\u1EC1n ph\xF3."
+    answerC: "c. Th\u1EE7y th\u1EE7."
+    answerD: "d. T\u1EA5t c\u1EA3 c\xE1c thuy\u1EC1n vi\xEAn."
+    correct: d
+  - id: 47
+    question: "Nh\u1EEFng n\u01A1i n\xE0o tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n ch\u1EDF
+      h\xF3a ch\u1EA5t, thuy\u1EC1n vi\xEAn kh\xF4ng \u0111\u01B0\u1EE3c v\xE0o khi
+      kh\xF4ng c\xF3 s\u1EF1 gi\xE1m s\xE1t c\u1EE7a s\u0129 quan c\xF3 tr\xE1ch
+      nhi\u1EC7m khi l\xE0m h\xE0ng:"
+    answerA: "a. C\xE1c k\xE9t h\xE0ng v\xE0 khoang tr\u1ED1ng xung quanh k\xE9t
+      \u0111\xF3."
+    answerB: "b. N\u01A1i x\u1EBFp, d\u1EE1 c\xF3 kh\xF4ng gian k\xEDn."
+    answerC: "c. N\u01A1i c\xF3 nguy c\u01A1 ch\xE1y t\u1EF1 nhi\xEAn."
+    answerD: "d. T\u1EA5t c\u1EA3 nh\u1EEFng n\u01A1i tr\xEAn."
+    correct: d
+  - id: 48
+    question: "N\u1EAFp k\xE9t h\xE0ng lu\xF4n ph\u1EA3i \u0111\xF3ng k\xEDn khi
+      x\u1EBFp, d\u1EE1 lo\u1EA1i h\xE0ng h\xF3a ch\u1EA5t n\xE0o: "
+    answerA: "a. H\xE0ng t\u1EA1o ra h\u01A1i d\u1EC5 ch\xE1y."
+    answerB: "b. H\xE0ng t\u1EA1o ra h\u01A1i \u0111\u1ED9c."
+    answerC: "c. H\xE0ng nguy hi\u1EC3m kh\xE1c."
+    answerD: "d. T\u1EA5t c\u1EA3 c\xE1c lo\u1EA1i h\xE0ng tr\xEAn."
+    correct: d
+  - id: 49
+    question: "K\xE9t ch\u1EE9a lo\u1EA1i ha\u0300ng h\xF3a ch\u1EA5t n\xE0o sau
+      \u0111\xE2y kh\xF4ng \u0111\u01B0\u1EE3c \u0111\u1EB7t tr\xEAn boong t\xE0u
+      n\u1EBFu kh\xF4ng \u0111\u01B0\u1EE3c c\xE1ch nhi\u1EC7t:"
+    answerA: "a. D\u1EC5 n\u1ED5."
+    answerB: "b. D\u1EC5 ch\xE1y."
+    answerC: "c. Nh\u1EA1y c\u1EA3m v\u1EDBi nhi\u1EC7t \u0111\u1ED9."
+    answerD: "d. Nh\u1EA1y c\u1EA3m v\u1EDBi \xE1nh s\xE1ng."
+    correct: c
+  - id: 50
+    question: "\u0110\u1ED1i t\u01B0\u1EE3ng thuy\u1EC1n vi\xEAn tr\xEAn ph\u01B0\u01A1ng
+      ti\u1EC7n ch\u1EDF h\xF3a ch\u1EA5t \u0111\u01B0\u1EE3c \u0111\xE0o t\u1EA1o,
+      hu\u1EA5n luy\u1EC7n quy tr\xECnh \u1EE9ng c\u1EE9u kh\u1EA9n c\u1EA5p \u0111\u1EC3
+      x\u1EED l\xFD c\xE1c t\xECnh tr\u1EA1ng r\xF2 r\u1EC9, tr\xE0n ho\u1EB7c ch\xE1y
+      c\xF3 li\xEAn quan \u0111\u1EBFn h\xE0ng h\xF3a ch\u1EA5t l\xE0:"
+    answerA: "a. M\xE1y tr\u01B0\u1EDFng."
+    answerB: "b. Th\u1EE3 m\xE1y."
+    answerC: "c. Th\u1EE7y th\u1EE7."
+    answerD: "d. C\xE1c s\u0129 quan."
+    correct: d
+  - id: 51
+    question: "T\xE0u ch\u1EDF h\xE0ng c\xF3 ph\u1EA3n \u1EE9ng nguy hi\u1EC3m v\u1EDBi
+      c\xE1c h\xE0ng h\xF3a kh\xE1c, c\u1EA5u tr\xFAc ph\u1EA3i th\u1ECFa m\xE3n
+      nh\u1EEFng y\xEAu c\u1EA7u na\u0300o: "
+    answerA: "a. C\xE1ch ly v\u1EDBi h\xE0ng h\xF3a kh\xE1c b\u1EB1ng k\xE9t c\xE1ch
+      ly."
+    answerB: "b. C\xF3 h\u1EC7 th\u1ED1ng b\u01A1m h\xE0ng ri\xEAng bi\u1EC7t."
+    answerC: "c. H\u1EC7 th\u1ED1ng th\xF4ng h\u01A1i khoang, k\xE9t h\xE0ng t\xE1ch
+      bi\u1EC7t."
+    answerD: "d. T\u1EA5t ca\u0309 c\xE1c y\xEAu c\u1EA7u tr\xEAn."
+    correct: d
+  - id: 52
+    question: "C\u01A1 quan ch\u1EE9c n\u0103ng ch\u1EA5p nh\u1EADn b\u1EA3n h\u01B0\u1EDBng
+      d\u1EABn v\u1EADn h\xE0nh tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n ch\u1EDF h\xF3a
+      ch\u1EA5t l\xE0:"
+    answerA: "a. B\u1ED9 Giao th\xF4ng v\u1EADn t\u1EA3i."
+    answerB: "b. S\u1EDF Giao th\xF4ng v\u1EADn t\u1EA3i."
+    answerC: "c. C\u01A1 quan \u0111\u0103ng ki\u1EC3m."
+    answerD: "d. C\u1EE5c \u0110\u01B0\u01A1\u0300ng th\u1EE7y n\u1ED9i \u0111\u1ECBa."
+    correct: c

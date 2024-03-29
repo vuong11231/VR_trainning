@@ -82,7 +82,6 @@ public class BYDataTable<T> : BYDataTableCreate where T : class , new()
                 string[] lineData = s.Split(',');
                 for (int j = 0; j < lineData.Length; j++)
                 {
-                    Debug.Log(lineData[j]);
                     if (lineData[j].Contains("<c>"))
                         lineData[j] = lineData[j].Replace("<c>", ",");
                 }

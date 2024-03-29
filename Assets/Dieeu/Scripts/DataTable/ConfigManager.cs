@@ -6,7 +6,7 @@ using UnityEngine;
 public class ConfigManager : BYSingletonMono<ConfigManager>
 {
     [HideInInspector]
-    public DefaultConfig configQuestion;
+    public PCCC configQuestion;
     public void InitConfig(Action callback)
     {
         StartCoroutine(LoadConfig(callback));
@@ -14,7 +14,7 @@ public class ConfigManager : BYSingletonMono<ConfigManager>
 
     IEnumerator LoadConfig(Action callback)
     {
-        configQuestion = Resources.Load("DataTable/DefaultConfig", typeof(ScriptableObject)) as DefaultConfig;
+        configQuestion = Resources.Load("DataTable/PCCC", typeof(ScriptableObject)) as PCCC;
         yield return new WaitUntil(() => configQuestion != null);
 
 

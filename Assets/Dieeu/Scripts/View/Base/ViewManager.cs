@@ -11,7 +11,7 @@ public class ViewManager : BYSingletonMono<ViewManager>
     [NonSerialized]
     public BaseView currentView = null;
 
-    private List<DefaultConfigRecord> m_ListQuestions = new();
+    private List<PCCCRecord> m_ListQuestions = new();
     private ViewParam m_ViewParam;
     private int numberQuestion = 0;
 
