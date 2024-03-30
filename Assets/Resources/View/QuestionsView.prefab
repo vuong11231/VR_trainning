@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 35, y: 7.5}
-  m_SizeDelta: {x: -90, y: -25}
+  m_AnchoredPosition: {x: 25, y: 7.5}
+  m_SizeDelta: {x: -70, y: -25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3967748890784039705
 CanvasRenderer:
@@ -65,10 +65,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Answer is here...
+  m_text: "a. Bi\u1EC3n 1"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
-  m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: faed64ebb3e91d940958141a2cd17993, type: 2}
+  m_sharedMaterial: {fileID: -7481033804170909574, guid: faed64ebb3e91d940958141a2cd17993, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -540,8 +540,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 35, y: 7.5}
-  m_SizeDelta: {x: -90, y: -25}
+  m_AnchoredPosition: {x: 25, y: 7.5}
+  m_SizeDelta: {x: -70, y: -25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &604185527832438567
 CanvasRenderer:
@@ -571,10 +571,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Answer is here...
+  m_text: "c. Bi\u1EC3n 3"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
-  m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: faed64ebb3e91d940958141a2cd17993, type: 2}
+  m_sharedMaterial: {fileID: -7481033804170909574, guid: faed64ebb3e91d940958141a2cd17993, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -928,8 +928,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 35, y: 7.5}
-  m_SizeDelta: {x: -90, y: -25}
+  m_AnchoredPosition: {x: 25, y: 7.5}
+  m_SizeDelta: {x: -70, y: -25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3335214944988089923
 CanvasRenderer:
@@ -959,10 +959,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Answer is here...
+  m_text: "b. Bi\u1EC3n 2"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
-  m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: faed64ebb3e91d940958141a2cd17993, type: 2}
+  m_sharedMaterial: {fileID: -7481033804170909574, guid: faed64ebb3e91d940958141a2cd17993, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1196,8 +1196,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 35, y: 7.5}
-  m_SizeDelta: {x: -90, y: -25}
+  m_AnchoredPosition: {x: 25, y: 7.5}
+  m_SizeDelta: {x: -70, y: -25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7210246958436347499
 CanvasRenderer:
@@ -1227,10 +1227,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Answer is here...
+  m_text: "d. Bi\u1EC3n 4"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
-  m_sharedMaterial: {fileID: 4687939059374929122, guid: f675742eaf9c20a4f909d78ee7a14fed, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: faed64ebb3e91d940958141a2cd17993, type: 2}
+  m_sharedMaterial: {fileID: -7481033804170909574, guid: faed64ebb3e91d940958141a2cd17993, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1364,8 +1364,8 @@ MonoBehaviour:
   m_text: "Bi\u1EC3n ch\u1EC9 v\u1ECB tr\xED \u0111\u1EB7t thi\u1EBFt b\u1ECB ch\u1EEFa
     ch\xE1y l\xE0"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2f89825f21bccf94a85f7bb31d0abdfc, type: 2}
-  m_sharedMaterial: {fileID: -1918034939820040887, guid: 2f89825f21bccf94a85f7bb31d0abdfc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: faed64ebb3e91d940958141a2cd17993, type: 2}
+  m_sharedMaterial: {fileID: -7481033804170909574, guid: faed64ebb3e91d940958141a2cd17993, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
