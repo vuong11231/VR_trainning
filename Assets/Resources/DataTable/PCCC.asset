@@ -22,6 +22,7 @@ MonoBehaviour:
       c\u1EE9u h\u1ED9, c\u1EE9u n\u1EA1n."
     answerD: "d. T\u1EA5t c\u1EA3 c\xE1c \xFD tr\xEAn."
     correct: d
+    typeSigns: null
   - id: 2
     question: "Quy \u0111\u1ECBnh vi\u1EC7c s\u1EED d\u1EE5ng trang, thi\u1EBFt b\u1ECB
       b\u1EA3o h\u1ED9 lao \u0111\u1ED9ng:"
@@ -35,6 +36,7 @@ MonoBehaviour:
       m\u1EE5c \u0111\xEDch v\xE0 \u0111\u1EE7 c\xE1c trang, thi\u1EBFt b\u1ECB \u0111\u01B0\u1EE3c
       cung c\u1EA5p."
     correct: d
+    typeSigns: null
   - id: 3
     question: "Trong th\u1EDDi gian l\xE0m vi\u1EC7c, ng\u01B0\u1EDDi lao \u0111\u1ED9ng
       ph\u1EA3i ch\u1EA5p h\xE0nh quy \u0111\u1ECBnh \u0111i l\u1EA1i t\u1EA1i hi\u1EC7n
@@ -45,6 +47,7 @@ MonoBehaviour:
     answerC: "c. Trong v\xE0 ngo\xE0i ph\u1EA1m vi khu v\u1EF1c m\xECnh l\xE0m vi\u1EC7c."
     answerD: "d. Ch\u1EC9 \u0111\u01B0\u1EE3c ph\xE9p \u0111i l\u1EA1i tr\xEAn boong."
     correct: b
+    typeSigns: null
   - id: 4
     question: "Khi x\u1EA3y ra s\u1EF1 c\u1ED1 tai n\u1EA1n lao \u0111\u1ED9ng, nh\u1EEFng
       ng\u01B0\u1EDDi c\xF3 m\u1EB7t t\u1EA1i hi\u1EC7n tr\u01B0\u1EDDng ph\u1EA3i:"
@@ -55,6 +58,7 @@ MonoBehaviour:
       ng\u01B0\u1EDDi c\xF3 tr\xE1ch nhi\u1EC7m x\u1EED l\xFD."
     answerD: "d. T\u1EA5t c\u1EA3 vi\u1EC7c tr\xEAn."
     correct: d
+    typeSigns: null
   - id: 5
     question: "\u0110\u1EC3 \u0111\u1EA3m b\u1EA3o an to\xE0n ph\xF2ng, ch\u1EEFa
       ch\xE1y tr\xEAn t\xE0u th\xEC thuy\u1EC1n vi\xEAn:"
@@ -66,6 +70,7 @@ MonoBehaviour:
       di\u1EC7n."
     answerD: "d. T\u1EA5t c\u1EA3 c\xE1c c\xF4ng vi\u1EC7c tr\xEAn."
     correct: d
+    typeSigns: null
   - id: 6
     question: "Khi c\xF3 s\u1EF1 c\u1ED1 ho\u1EB7c nghi ng\u1EDD thi\u1EBFt b\u1ECB
       c\xF3 s\u1EF1 c\u1ED1, tr\u01B0\u1EDBc h\u1EBFt ng\u01B0\u1EDDi lao \u0111\u1ED9ng
@@ -75,6 +80,7 @@ MonoBehaviour:
     answerC: "c. L\u1EADp t\u1EE9c r\u1EDDi kh\u1ECFi hi\u1EC7n tr\u01B0\u1EDDng."
     answerD: "d. D\u1EEBng ho\u1EA1t \u0111\u1ED9ng."
     correct: a
+    typeSigns: null
   - id: 7
     question: "Khi x\u1EA3y ra tai n\u1EA1n lao \u0111\u1ED9ng, nh\u1EEFng ng\u01B0\u1EDDi
       c\xF3 m\u1EB7t t\u1EA1i hi\u1EC7n tr\u01B0\u1EDDng ph\u1EA3i l\xE0m:"
@@ -85,6 +91,7 @@ MonoBehaviour:
       ng\u01B0\u1EDDi c\xF3 tr\xE1ch nhi\u1EC7m x\u1EED l\xFD."
     answerD: "d. T\u1EA5t c\u1EA3 c\xE1c \xFD tr\xEAn ."
     correct: d
+    typeSigns: null
   - id: 8
     question: "Khi c\xF3 ng\u01B0\u1EDDi vi ph\u1EA1m v\u1EC1 nguy\xEAn t\u1EAFc
       an to\xE0n lao \u0111\u1ED9ng x\u1EA3y ra t\u1EA1i n\u01A1i l\xE0m vi\u1EC7c,
@@ -94,6 +101,7 @@ MonoBehaviour:
     answerC: "c. \u0110\u1EA1i di\u1EC7n l\xE3nh \u0111\u1EA1o v\u1EC1 an to\xE0n."
     answerD: "d. Ng\u01B0\u1EDDi c\xF9ng l\xE0m vi\u1EC7c."
     correct: c
+    typeSigns: null
   - id: 9
     question: "Trong quy \u0111\u1ECBnh an to\xE0n lao \u0111\u1ED9ng, ng\u01B0\u1EDDi
       lao \u0111\u1ED9ng \u0111\u01B0\u1EE3c s\u1EED d\u1EE5ng v\xE0 v\u1EADn h\xE0nh
@@ -105,6 +113,7 @@ MonoBehaviour:
       h\xE0nh thi\u1EBFt b\u1ECB."
     answerD: "d. Ng\u01B0\u1EDDi \u0111\xE3 l\xE0m vi\u1EC7c l\xE2u n\u0103m."
     correct: b
+    typeSigns: null
   - id: 10
     question: "Khi tr\u1EF1c ca t\xE0u h\xE0nh tr\xECnh, thuy\u1EC1n vi\xEAn l\xE0m
       nhi\u1EC7m v\u1EE5 c\u1EA3nh gi\u1EDBi n\u1EBFu ph\xE1t hi\u1EC7n c\xF3 hi\u1EC7n
@@ -114,6 +123,7 @@ MonoBehaviour:
     answerC: "c. Ng\u01B0\u1EDDi ph\u1EE5 tr\xE1ch ca."
     answerD: "d. M\xE1y tr\u01B0\u1EDFng."
     correct: c
+    typeSigns: null
   - id: 11
     question: "Thuy\u1EC1n ph\xF3 khi tr\u1EF1c ca b\u1EDD, tr\u01B0\u1EDDng h\u1EE3p
       t\xE0u \u0111\u1EADu trong c\u1EA7u c\u1EA3ng c\u1EA7n n\u1EAFm r\xF5:"
@@ -123,6 +133,7 @@ MonoBehaviour:
     answerD: "d. L\xE0m theo s\u1EF1 ch\u1EC9 \u0111\u1EA1o c\u1EE7a c\u01A1 quan
       C\u1EA3ng v\u1EE5."
     correct: a
+    typeSigns: null
   - id: 12
     question: "Ng\u01B0\u1EDDi tr\u1EF1c ca khi t\xE0u h\xE0nh tr\xECnh, n\u1EBFu
       c\xF3 b\xE1o \u0111\u1ED9ng ph\u1EA3i \u1EDF:"
@@ -132,6 +143,7 @@ MonoBehaviour:
     answerC: "c. Nh\u1EEFng n\u01A1i c\u1EA7n thi\u1EBFt."
     answerD: "d. M\u0169i t\xE0u."
     correct: b
+    typeSigns: null
   - id: 13
     question: "Khi x\u1EA3y ra ch\xE1y, n\u1ED5 tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n,
       thuy\u1EC1n tr\u01B0\u1EDFng ph\u1EA3i c\xF3 m\u1EB7t \u1EDF \u0111\u1EC3 ch\u1EC9
@@ -141,6 +153,7 @@ MonoBehaviour:
     answerC: "c. L\xE1i t\xE0u."
     answerD: "d. V\u1ECB tr\xED cao nh\u1EA5t."
     correct: a
+    typeSigns: null
   - id: 14
     question: "Khi x\u1EA3y ra ch\xE1y, n\u1ED5 tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n,
       ng\u01B0\u1EDDi ch\u1EC9 huy vi\u1EC7c c\u1EE9u ng\u01B0\u1EDDi v\xE0 di chuy\u1EC3n
@@ -150,6 +163,7 @@ MonoBehaviour:
     answerC: "c. M\xE1y tr\u01B0\u1EDFng."
     answerD: "d. Th\u1EE7y th\u1EE7."
     correct: b
+    typeSigns: null
   - id: 15
     question: "Khi x\u1EA3y ra ch\xE1y n\u1ED5 tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n
       th\u1EE7y, ng\u01B0\u1EDDi tr\u1EF1c ti\u1EBFp s\u1EED d\u1EE5ng c\xE1c trang
@@ -159,6 +173,7 @@ MonoBehaviour:
     answerC: "c. Thuy\u1EC1n vi\xEAn."
     answerD: "d. Th\u1EE3 m\xE1y."
     correct: c
+    typeSigns: null
   - id: 16
     question: "Khi x\u1EA3y ra ch\xE1y n\u1ED5 tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n,
       th\u1EE3 m\xE1y c\xF3 nhi\u1EC7m v\u1EE5:"
@@ -168,6 +183,7 @@ MonoBehaviour:
     answerC: "c. Di chuy\u1EC3n t\xE0i s\u1EA3n, tham gia c\u1EE9u ng\u01B0\u1EDDi."
     answerD: "d. T\u1EA5t c\u1EA3 c\xE1c nhi\u1EC7m v\u1EE5 tr\xEAn."
     correct: d
+    typeSigns: null
   - id: 17
     question: "Khi x\u1EA3y ra ch\xE1y n\u1ED5 tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n,
       ng\u01B0\u1EDDi c\u1EAFt \u0111i\u1EC7n, ch\u1EA1y b\u01A1m n\u01B0\u1EDBc
@@ -177,6 +193,7 @@ MonoBehaviour:
     answerC: "c. Th\u1EE7y th\u1EE7."
     answerD: "d. Th\u1EE3 m\xE1y."
     correct: b
+    typeSigns: null
   - id: 18
     question: "Tai n\u1EA1n \u0111\u1ED1i v\u1EDBi ng\u01B0\u1EDDi l\xE0m vi\u1EC7c
       tr\xEAn t\xE0u th\u1EE7y, n\u1EA1n nh\xE2n c\xF3 th\u1EC3 b\u1ECB:"
@@ -185,6 +202,7 @@ MonoBehaviour:
     answerC: "c. Ch\u1EA5n th\u01B0\u01A1ng ph\u1EA7n m\u1EC1m, n\u1ED9i t\u1EA1ng."
     answerD: "d. T\u1EA5t c\u1EA3 c\xE1c tr\u01B0\u1EDDng h\u1EE3p tr\xEAn."
     correct: d
+    typeSigns: null
   - id: 19
     question: "Khi l\xE0m d\xE2y v\u1EDBi tr\u1ED1ng qu\u1EA5n d\xE2y, ng\u01B0\u1EDDi
       l\xE0m d\xE2y ph\u1EA3i \u0111\u1EC3 tay gi\u1EEF d\xE2y c\xE1ch tr\u1ED1ng
@@ -194,6 +212,7 @@ MonoBehaviour:
     answerC: c. 1,5 m.
     answerD: d. 2,0 m.
     correct: b
+    typeSigns: null
   - id: 20
     question: "Thuy\u1EC1n vi\xEAn l\xE0m vi\u1EC7c tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n
       ch\u1EDF h\xF3a ch\u1EA5t, ngo\xE0i c\xE1c gi\xE2\u0301y ch\u1EE9ng nh\u1EADn
@@ -205,6 +224,7 @@ MonoBehaviour:
     answerD: "d. Ch\u1EE9ng ch\u1EC9 an to\xE0n l\xE0m vi\u1EC7c tr\xEAn ph\u01B0\u01A1ng
       ti\u1EC7n ch\u1EDF h\xF3a ch\u1EA5t."
     correct: d
+    typeSigns: null
   - id: 21
     question: "Ph\u01B0\u01A1ng ti\u1EC7n \u0111\u01B0\u1EE3c ph\xE9p chuy\xEAn ch\u1EDF
       h\xF3a ch\u1EA5t l\xE0:"
@@ -215,6 +235,7 @@ MonoBehaviour:
       an to\xE0n k\u1EF9 thu\u1EADt v\xE0 b\u1EA3o v\u1EC7 m\xF4i tr\u01B0\u1EDDng
       ph\xF9 h\u1EE3p v\u1EDBi lo\u1EA1i, nh\xF3m h\xE0ng chuy\xEAn ch\u1EDF."
     correct: d
+    typeSigns: null
   - id: 22
     question: "Trang thi\u1EBFt b\u1ECB b\u1EA3o v\u1EC7 ng\u01B0\u1EDDi l\xE0m c\xF4ng
       t\xE1c v\u1EADn t\u1EA3i h\xF3a ch\u1EA5t ph\u1EA3i b\u1EA3o \u0111\u1EA3m
@@ -224,6 +245,7 @@ MonoBehaviour:
     answerC: "c. C\xE1ch nhi\u1EC7t."
     answerD: "d. To\xE0n th\xE2n \u0111\u01B0\u1EE3c b\u1EA3o v\u1EC7."
     correct: d
+    typeSigns: null
   - id: 23
     question: "Ng\u01B0\u1EDDi l\xE0m c\xF4ng t\xE1c v\u1EADn t\u1EA3i h\xF3a ch\u1EA5t
       s\u1EED d\u1EE5ng trang thi\u1EBFt b\u1ECB b\u1EA3o v\u1EC7 khi:"
@@ -233,6 +255,7 @@ MonoBehaviour:
     answerC: "c. Ch\u1EC9 khi x\u1EBFp h\xE0ng."
     answerD: "d. Ch\u1EC9 khi d\u1EE1 h\xE0ng."
     correct: b
+    typeSigns: null
   - id: 24
     question: "Dung t\xEDch chai kh\xED d\u1EF1 tr\u1EEF cho m\u1ED7i thi\u1EBFt
       b\u1ECB th\u1EDF tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n ch\u1EDF h\xF3a ch\u1EA5t
@@ -242,6 +265,7 @@ MonoBehaviour:
     answerC: "c. 1000 l\xEDt."
     answerD: "d. 6000 l\xEDt."
     correct: d
+    typeSigns: null
   - id: 25
     question: "Th\u1EDDi gian t\u1ED1i thi\u1EC3u ph\u1EA3i ki\u1EC3m tra thi\u1EBFt
       b\u1ECB th\u1EDF c\u1EE7a ph\u01B0\u01A1ng ti\u1EC7n ch\u1EDF h\xF3a ch\u1EA5t
@@ -251,6 +275,7 @@ MonoBehaviour:
     answerC: "c. 6 th\xE1ng."
     answerD: "d. 1 n\u0103m."
     correct: a
+    typeSigns: null
   - id: 26
     question: "Tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n ch\u1EDF h\xF3a ch\u1EA5t, h\xE0ng
       h\xF3a nguy hi\u1EC3m ng\u01B0\u1EDDi quy\u1EBFt \u0111\u1ECBnh s\u01A1 \u0111\u1ED3
@@ -260,6 +285,7 @@ MonoBehaviour:
     answerC: "c. Thuy\u1EC1n tr\u01B0\u1EDFng."
     answerD: "d. M\xE1y tr\u01B0\u1EDFng."
     correct: c
+    typeSigns: null
   - id: 27
     question: "Qu\u1EA7n \xE1o trang thi\u1EBFt b\u1ECB b\u1EA3o v\u1EC7 ng\u01B0\u1EDDi
       l\xE0m vi\u1EC7c tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n ch\u1EDF h\xF3a ch\u1EA5t
@@ -269,6 +295,7 @@ MonoBehaviour:
     answerC: "c. T\u1EE7 chuy\xEAn d\xF9ng."
     answerD: "d. N\u01A1i l\xE0m vi\u1EC7c."
     correct: c
+    typeSigns: null
   - id: 28
     question: "Thuy\u1EC1n vi\xEAn \u0111\u01B0\u1EE3c ph\xE9p v\xE0o l\xE0m vi\u1EC7c
       trong khu v\u1EF1c k\xEDn khi n\u1ED3ng \u0111\u1ED9 \xD4xy l\u1EDBn h\u01A1n:"
@@ -277,6 +304,7 @@ MonoBehaviour:
     answerC: c. 20%.
     answerD: d. 21%.
     correct: d
+    typeSigns: null
   - id: 29
     question: "Khi l\xE0m vi\u1EC7c trong khu v\u1EF1c k\xEDn, nghi ng\u1EDD c\xF3
       t\u1ED3n \u0111\u1ECDng h\u01A1i \u0111\u1ED9c, ng\u01B0\u1EDDi lao \u0111\u1ED9ng
@@ -287,6 +315,7 @@ MonoBehaviour:
       v\xE0 bu\u1ED9c d\xE2y an to\xE0n."
     answerD: "d. Qu\u1EA7n \xE1o b\u1EA3o v\u1EC7 k\xEDn ng\u01B0\u1EDDi."
     correct: c
+    typeSigns: null
   - id: 30
     question: "Khi kh\xED v\xE0 h\u01A1i ph\xE1t ch\xE1y th\xEC d\xF9ng lo\u1EA1i
       b\xECnh ch\u1EEFa ch\xE1y h\xF3a h\u1ECDc \u0111\u1EC3 d\u1EADp ch\xE1y t\u1ED1t
@@ -296,6 +325,7 @@ MonoBehaviour:
     answerC: "c. B\xECnh  CO2."
     answerD: "d. B\xECnh axit baz\u01A1."
     correct: b
+    typeSigns: null
   - id: 31
     question: "S\u1EED d\u1EE5ng lo\u1EA1i b\xECnh h\xF3a h\u1ECDc \u0111\u1EC3 d\u1EADp
       ch\xE1y ph\u1EA3i \u0111eo m\u1EB7t n\u1EA1 ph\xF2ng ng\u1EA1t:"
@@ -304,6 +334,7 @@ MonoBehaviour:
     answerC: "c. B\xECnh  CO2."
     answerD: "d. B\xECnh axit baz\u01A1."
     correct: c
+    typeSigns: null
   - id: 32
     question: "C\xE1c thi\u1EBFt b\u1ECB \u0111i\u1EC7n, h\xF3a ch\u1EA5t kh\xF4ng
       g\xE2y ph\u1EA3n \u1EE9ng v\u1EDBi CO2 th\xEC d\xF9ng lo\u1EA1i b\xECnh ch\u1EEFa
@@ -313,6 +344,7 @@ MonoBehaviour:
     answerC: "c. B\xECnh b\u1ECDt."
     answerD: "d. B\xECnh Ax\xEDt baz\u01A1."
     correct: a
+    typeSigns: null
   - id: 33
     question: "Khi s\u1EED d\u1EE5ng lo\u1EA1i b\xECnh ch\u1EEFa ch\xE1y n\xE0o sau
       \u0111\xE2y ph\u1EA3i \u0111eo m\u1EB7t n\u1EA1 ph\xF2ng ng\u1EA1t:"
@@ -321,6 +353,7 @@ MonoBehaviour:
     answerC: "c. B\xECnh  CO2."
     answerD: "d. B\xECnh axit baz\u01A1."
     correct: c
+    typeSigns: null
   - id: 34
     question: "\u0110\xE1m ch\xE1y kh\xED v\xE0 h\u01A1i thu\u1ED9c lo\u1EA1i:"
     answerA: "a. Lo\u1EA1i A."
@@ -328,6 +361,7 @@ MonoBehaviour:
     answerC: "c. Lo\u1EA1i C."
     answerD: "d. Lo\u1EA1i D."
     correct: c
+    typeSigns: null
   - id: 35
     question: "Bi\u1EC3n c\u1EA5m h\xFAt thu\u1ED1c l\xE1 l\xE0:"
     answerA: "a. Bi\u1EC3n 1."
@@ -335,6 +369,7 @@ MonoBehaviour:
     answerC: "c. Bi\u1EC3n 3."
     answerD: "d. Bi\u1EC3n 4."
     correct: c
+    typeSigns: Ban,Notice,NoSmoke,Blue
   - id: 36
     question: "Bi\u1EC3n ch\u1EC9 v\u1ECB tr\xED \u0111\u1EB7t thi\u1EBFt b\u1ECB
       ch\u1EEFa ch\xE1y l\xE0:"
@@ -343,6 +378,7 @@ MonoBehaviour:
     answerC: "c. Bi\u1EC3n 3."
     answerD: "d. Bi\u1EC3n 4."
     correct: a
+    typeSigns: Red,Green,Blue,Ban
   - id: 37
     question: "Bi\u1EC3n ch\u1EC9 l\u1ED1i \u0111i an to\xE0n l\xE0: "
     answerA: "a. Bi\u1EC3n 1."
@@ -350,6 +386,7 @@ MonoBehaviour:
     answerC: "c. Bi\u1EC3n 3."
     answerD: "d. Bi\u1EC3n 4."
     correct: b
+    typeSigns: Red,Green,Ban,Blue
   - id: 38
     question: "Bi\u1EC3n ch\u1EC9 ch\xFA \xFD nguy hi\u1EC3m l\xE0:"
     answerA: "a. Bi\u1EC3n 1."
@@ -357,6 +394,7 @@ MonoBehaviour:
     answerC: "c. Bi\u1EC3n 3."
     answerD: "d. Bi\u1EC3n 4."
     correct: b
+    typeSigns: Ban,Notice,NoSmoke,Red
   - id: 39
     question: "Trang thi\u1EBFt b\u1ECB c\u1EE9u h\u1ECFa tr\xEAn t\xE0u \u0111\u01B0\u1EE3c
       s\u01A1n:"
@@ -365,6 +403,7 @@ MonoBehaviour:
     answerC: "c. M\xE0u v\xE0ng."
     answerD: "d. M\xE0u x\xE1m."
     correct: a
+    typeSigns: null
   - id: 40
     question: "Trang thi\u1EBFt b\u1ECB c\u1EE9u h\u1ECFa tr\xEAn t\xE0u th\u01B0\u1EDDng
       \u0111\u01B0\u1EE3c \u0111\u1EC3 \u1EDF \u0111\xE2u:"
@@ -374,6 +413,7 @@ MonoBehaviour:
       d\u1EC5 l\u1EA5y."
     answerD: "d. C\u1EA3 ba \u0111\xE1p \xE1n tr\xEAn."
     correct: c
+    typeSigns: null
   - id: 41
     question: "T\xE0u c\xF3 \u0111\u1EE7 ti\xEAu chu\u1EA9n v\u1EC1 c\u1EA5u tr\xFAc
       \u0111\u1EC3 ch\u1EDF h\xF3a ch\u1EA5t g\xE2y nguy hi\u1EC3m v\xE0 \xF4 nhi\u1EC5m
@@ -383,6 +423,7 @@ MonoBehaviour:
     answerC: "c. T\xE0u lo\u1EA1i 3."
     answerD: "d. C\xE1c lo\u1EA1i t\xE0u."
     correct: a
+    typeSigns: null
   - id: 42
     question: "T\xE0u c\xF3 \u0111\u1EE7 ti\xEAu chu\u1EA9n v\u1EC1 c\u1EA5u tr\xFAc
       \u0111\u1EC3 ch\u1EDF h\xF3a ch\u1EA5t g\xE2y nguy hi\u1EC3m v\xE0 \xF4 nhi\u1EC5m
@@ -392,6 +433,7 @@ MonoBehaviour:
     answerC: "c. T\xE0u lo\u1EA1i 2. "
     answerD: "d. T\xE0u lo\u1EA1i 3."
     correct: c
+    typeSigns: null
   - id: 43
     question: "T\xE0u c\xF3 \u0111\u1EE7 ti\xEAu chu\u1EA9n v\u1EC1 c\u1EA5u tr\xFAc
       \u0111\u1EC3 ch\u1EDF h\xF3a ch\u1EA5t g\xE2y nguy hi\u1EC3m v\xE0 \xF4 nhi\u1EC5m
@@ -401,6 +443,7 @@ MonoBehaviour:
     answerC: "c. T\xE0u lo\u1EA1i 1 v\xE0 2. "
     answerD: "d. T\xE0u lo\u1EA1i 3."
     correct: d
+    typeSigns: null
   - id: 44
     question: "Khoang, k\xE9t ch\u1EE9a h\xE0ng h\xF3a ch\u1EA5t nguy hi\u1EC3m ph\u1EA3i
       c\xF3 k\u1EBFt c\u1EA5u \u0111\xE1y \u0111\xF4i \u1EDF lo\u1EA1i t\xE0u na\u0300o:"
@@ -409,6 +452,7 @@ MonoBehaviour:
     answerC: "c. T\xE0u lo\u1EA1i 1 v\xE0 2. "
     answerD: "d. T\xE0u lo\u1EA1i 3."
     correct: c
+    typeSigns: null
   - id: 45
     question: "Khoang, k\xE9t ch\u1EE9a h\xE0ng c\u1EE7a ph\u01B0\u01A1ng ti\u1EC7n
       ch\u1EDF x\xF4 h\xF3a ch\u1EA5t ph\u1EA3i \u0111\u01B0\u1EE3c c\xE1ch ly kh\u1ECFi
@@ -418,6 +462,7 @@ MonoBehaviour:
     answerC: "c. Khoang tr\u1ED1ng v\xE0 kho ch\u1EE9a th\u1EF1c ph\u1EA9m."
     answerD: "d. T\u1EA5t c\u1EA3 c\xE1c khu v\u1EF1c tr\xEAn."
     correct: d
+    typeSigns: null
   - id: 46
     question: "Thuy\u1EC1n vi\xEAn tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n ch\u1EDF h\xF3a
       ch\u1EA5t \u0111\u01B0\u1EE3c hu\u1EA5n luy\u1EC7n th\xEDch \u0111\xE1ng tr\xECnh
@@ -427,6 +472,7 @@ MonoBehaviour:
     answerC: "c. Th\u1EE7y th\u1EE7."
     answerD: "d. T\u1EA5t c\u1EA3 c\xE1c thuy\u1EC1n vi\xEAn."
     correct: d
+    typeSigns: null
   - id: 47
     question: "Nh\u1EEFng n\u01A1i n\xE0o tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n ch\u1EDF
       h\xF3a ch\u1EA5t, thuy\u1EC1n vi\xEAn kh\xF4ng \u0111\u01B0\u1EE3c v\xE0o khi
@@ -438,6 +484,7 @@ MonoBehaviour:
     answerC: "c. N\u01A1i c\xF3 nguy c\u01A1 ch\xE1y t\u1EF1 nhi\xEAn."
     answerD: "d. T\u1EA5t c\u1EA3 nh\u1EEFng n\u01A1i tr\xEAn."
     correct: d
+    typeSigns: null
   - id: 48
     question: "N\u1EAFp k\xE9t h\xE0ng lu\xF4n ph\u1EA3i \u0111\xF3ng k\xEDn khi
       x\u1EBFp, d\u1EE1 lo\u1EA1i h\xE0ng h\xF3a ch\u1EA5t n\xE0o: "
@@ -446,6 +493,7 @@ MonoBehaviour:
     answerC: "c. H\xE0ng nguy hi\u1EC3m kh\xE1c."
     answerD: "d. T\u1EA5t c\u1EA3 c\xE1c lo\u1EA1i h\xE0ng tr\xEAn."
     correct: d
+    typeSigns: null
   - id: 49
     question: "K\xE9t ch\u1EE9a lo\u1EA1i ha\u0300ng h\xF3a ch\u1EA5t n\xE0o sau
       \u0111\xE2y kh\xF4ng \u0111\u01B0\u1EE3c \u0111\u1EB7t tr\xEAn boong t\xE0u
@@ -455,6 +503,7 @@ MonoBehaviour:
     answerC: "c. Nh\u1EA1y c\u1EA3m v\u1EDBi nhi\u1EC7t \u0111\u1ED9."
     answerD: "d. Nh\u1EA1y c\u1EA3m v\u1EDBi \xE1nh s\xE1ng."
     correct: c
+    typeSigns: null
   - id: 50
     question: "\u0110\u1ED1i t\u01B0\u1EE3ng thuy\u1EC1n vi\xEAn tr\xEAn ph\u01B0\u01A1ng
       ti\u1EC7n ch\u1EDF h\xF3a ch\u1EA5t \u0111\u01B0\u1EE3c \u0111\xE0o t\u1EA1o,
@@ -466,6 +515,7 @@ MonoBehaviour:
     answerC: "c. Th\u1EE7y th\u1EE7."
     answerD: "d. C\xE1c s\u0129 quan."
     correct: d
+    typeSigns: null
   - id: 51
     question: "T\xE0u ch\u1EDF h\xE0ng c\xF3 ph\u1EA3n \u1EE9ng nguy hi\u1EC3m v\u1EDBi
       c\xE1c h\xE0ng h\xF3a kh\xE1c, c\u1EA5u tr\xFAc ph\u1EA3i th\u1ECFa m\xE3n
@@ -477,6 +527,7 @@ MonoBehaviour:
       bi\u1EC7t."
     answerD: "d. T\u1EA5t ca\u0309 c\xE1c y\xEAu c\u1EA7u tr\xEAn."
     correct: d
+    typeSigns: null
   - id: 52
     question: "C\u01A1 quan ch\u1EE9c n\u0103ng ch\u1EA5p nh\u1EADn b\u1EA3n h\u01B0\u1EDBng
       d\u1EABn v\u1EADn h\xE0nh tr\xEAn ph\u01B0\u01A1ng ti\u1EC7n ch\u1EDF h\xF3a
@@ -486,3 +537,4 @@ MonoBehaviour:
     answerC: "c. C\u01A1 quan \u0111\u0103ng ki\u1EC3m."
     answerD: "d. C\u1EE5c \u0110\u01B0\u01A1\u0300ng th\u1EE7y n\u1ED9i \u0111\u1ECBa."
     correct: c
+    typeSigns: null

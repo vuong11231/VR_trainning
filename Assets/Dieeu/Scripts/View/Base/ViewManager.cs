@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor;
 using UnityEngine;
 
 public class ViewManager : BYSingletonMono<ViewManager>
@@ -40,7 +41,7 @@ public class ViewManager : BYSingletonMono<ViewManager>
         }
         // 2. switch empty view
         SwitchView(ViewIndex.HomeView);
-    }    
+    }
 
     public BaseView GetView(ViewIndex viewIndex)
     {
@@ -51,9 +52,9 @@ public class ViewManager : BYSingletonMono<ViewManager>
         return currentView;
     }
     // Update is called once per frame
-    public void SwitchView(ViewIndex viewIndex,ViewParam viewParam=null,Action callback=null)
+    public void SwitchView(ViewIndex viewIndex, ViewParam viewParam = null, Action callback = null)
     {
-        if(currentView!=null)
+        if (currentView != null)
         {
             //
             ViewCallBack viewCallBack = new ViewCallBack();
@@ -63,14 +64,14 @@ public class ViewManager : BYSingletonMono<ViewManager>
                                         OnShowNextView(viewIndex, viewParam, callback);
                                     };
 
-            currentView.SendMessage("HideView", viewCallBack); 
+            currentView.SendMessage("HideView", viewCallBack);
         }
         else
         {
             OnShowNextView(viewIndex, viewParam, callback);
         }
     }
-   
+
     private void OnShowNextView(ViewIndex viewIndex, ViewParam viewParam = null, Action callback = null)
     {
         currentView = dicView[viewIndex];
@@ -80,7 +81,7 @@ public class ViewManager : BYSingletonMono<ViewManager>
         viewCallBack.callBack = callback;
         currentView.SendMessage("ShowView", viewCallBack);
     }
-   
+
     public void NextQuestion()
     {
         if (numberQuestion < m_ListQuestions.Count - 1)
@@ -95,12 +96,34 @@ public class ViewManager : BYSingletonMono<ViewManager>
                                     m_ListQuestions[numberQuestion].answerC,
                                     m_ListQuestions[numberQuestion].answerD };
             m_ViewParam.answer = arrAnswers;
+            //Image signs
+            m_ViewParam.typeSigns = ShowImageSigns();
+
             SwitchView(ViewIndex.QuestionsView, m_ViewParam, null);
         }
         else
         {
             Debug.Log("Stop");
         }
+    }
+
+    private TypeSigns[] ShowImageSigns()
+    {
+        string signsString = m_ListQuestions[numberQuestion].typeSigns;
+        string[] arrSigns = signsString != "null" ? signsString.Split(',') : null;
+        if (arrSigns != null)
+        {
+            TypeSigns[] typeSigns = new TypeSigns[4];
+            TypeSigns typeSign;
+            for (int i = 0; i < arrSigns.Length; i++)
+            {
+                TypeSigns.TryParse(arrSigns[i], out typeSign);
+                typeSigns[i] = typeSign;
+            }
+            return typeSigns;
+        }
+        else
+            return null;
     }
 
     public bool CheckCorrectAnswer(string answer)

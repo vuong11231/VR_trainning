@@ -16,6 +16,7 @@ public class ViewParam
     public int totalQuestion = 0;
     public string question = string.Empty;
     public string[] answer = new string[4];
+    public TypeSigns[] typeSigns = null;
 }
 public class ViewConfig 
 {

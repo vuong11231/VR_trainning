@@ -13,6 +13,7 @@ public class PCCCRecord
     public string answerC;
     public string answerD;
     public string correct;
+    public string typeSigns;
 }
 
 public class PCCC : BYDataTable<PCCCRecord>

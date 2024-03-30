@@ -7,6 +7,16 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
+public enum TypeSigns
+{
+    Red,
+    Green,
+    Blue,
+    Notice,
+    Ban,
+    NoSmoke,
+}
+
 public class QuestionsView : BaseView
 {
     [SerializeField] private TextMeshProUGUI txtNumber;
@@ -17,6 +27,9 @@ public class QuestionsView : BaseView
     [SerializeField] private Sprite incorrectColor;
     [SerializeField] private Sprite correctColor;
     [SerializeField] private Sprite normalColor;
+    [SerializeField] private Sprite[] spritesSigns = new Sprite[6];
+    [SerializeField] private GameObject groupSigns;
+    [SerializeField] private Image[] imgSigns = new Image[4];
     private int indexSelected = 0;
 
     private void Start()
@@ -59,6 +72,20 @@ public class QuestionsView : BaseView
             arrButtonAnswer[i].interactable = true;
         }    
         txtQuestion.text = param.question.ToString();
+
+        //Signs
+        if(param.typeSigns != null)
+        {
+            groupSigns.SetActive(true);
+            for (int i = 0; i < imgSigns.Length; i++)
+            {
+                imgSigns[i].sprite = spritesSigns[(int)param.typeSigns[i]];
+            }
+        } else
+        {
+            groupSigns.SetActive(false);
+        }
+
         for (int i = 0; i < param.answer.Length; i++)
         {
             arrTextAnswer[i].text = param.answer[i].ToString();
