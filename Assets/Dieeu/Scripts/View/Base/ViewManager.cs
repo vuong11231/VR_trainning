@@ -84,7 +84,7 @@ public class ViewManager : BYSingletonMono<ViewManager>
 
     public void NextQuestion()
     {
-        if (numberQuestion < m_ListQuestions.Count - 1)
+        if (numberQuestion < m_ListQuestions.Count)
         {
             m_ViewParam = new();
             m_ViewParam.id = m_ListQuestions[numberQuestion].id;
@@ -103,7 +103,7 @@ public class ViewManager : BYSingletonMono<ViewManager>
         }
         else
         {
-            Debug.Log("Stop");
+            SwitchView(ViewIndex.CongratulationsView);
         }
     }
 
